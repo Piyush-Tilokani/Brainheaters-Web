@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../css/desktopmirror/dualmirror.module.css";
+import styles from "../css/DesktopMirror/dualmirror.module.css";
 import Link from "next/link";
 
 function DualMirror() {

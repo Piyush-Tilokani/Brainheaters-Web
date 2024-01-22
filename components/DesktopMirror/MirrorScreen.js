@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../css/desktopmirror/mirrorscreen.module.css";
+import styles from "../css/DesktopMirror/mirrorscreen.module.css";
 import Link from "next/link";
 
 function MirrorScreen() {
