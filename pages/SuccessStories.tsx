@@ -8,10 +8,12 @@ import SubFooter from "../components/SucessStories/SubFooter";
 import Footer from "../components/Footer.js";
 
 import React, { useEffect, useState } from "react";
+import Layout from "./Layout";
 
 function SuccessStories() {
   return (
     <div>
+      <Layout />
       <Navbar></Navbar>
       <HeroSection></HeroSection>
       <FeaturedStudent1></FeaturedStudent1>;

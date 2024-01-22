@@ -8,10 +8,12 @@ import Footer from "../components/Footer.js";
 import StudyMaterialYouGetBH from "../components/Home/StudyMaterialYouGetBH";
 import OurRecipes from "../components/Home/OurRecipes";
 import BhUsersSection from "../components/Home/BhUsersSection";
+import Layout from "../pages/Layout";
 
 const Home = () => {
   return (
     <div>
+      <Layout />
       <Navbar />
       <Hero />
       <StatsBanner />
