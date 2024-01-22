@@ -1,0 +1,162 @@
+.tableContainer{
+ margin-top: 0.15rem;
+ /* border: 2px solid black; */
+ margin-left: 5px;
+ /* margin-right: 38px; */
+}
+.horizontalLine{
+    height: 0.1px;
+    width: 1184px;
+    display: inline-block;
+    background-color: #EDEDED;
+    border: 0.9px solid #EDEDED;
+}
+.subName{
+    width: 345px;
+    border-bottom: solid 1px #EDEDED; 
+}
+.readers{
+    width: 148px;
+    border-bottom: solid 1px #EDEDED; 
+}
+.lastUpdated{
+    width: 235px;
+    border-bottom: solid 1px #EDEDED; 
+}
+.pages{
+    width: 147px;
+    border-bottom: solid 1px #EDEDED; 
+}
+.rating{
+    width: 128px;
+    border-bottom: solid 1px #EDEDED; 
+}
+.void{
+    width: 197px;
+    border-bottom: solid 1px #EDEDED; 
+}
+.tdata{
+    color: #374957;
+    font-family: Gordita;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 19.2px */
+    letter-spacing: -0.24px;
+}
+.tableRowEven .tdVoid{
+    border-right: none;
+}
+.tableRow .tdVoid{
+    border-right: none;
+}
+.tableRow th.void{
+    border-right: none;
+}
+.tableRow th {
+    padding: 1.25rem 1rem;
+    border-right: solid 1px #EDEDED; 
+    /* border: 2px solid red; */
+    text-align: center;
+    /* width: auto; */
+}
+.tableRow, .thead, .tdata{
+    /* border: 1px solid #EDEDED;
+    border-collapse: collapse; */
+  }
+.tableRow td {
+    padding: 15px 1rem;
+    background-color: #F4F7F8;
+    text-align: center;
+    /* border-radius: 12px; */
+    border-right: solid 1px #EDEDED; 
+}
+
+ .tdVoid{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+ .tdataBold{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.tableRowTotal td {
+    padding: 15px 1rem;
+    background-color: #ffffff;
+    text-align: center;
+    /* border-radius: 12px; */
+    border-right: solid 1px #EDEDED; 
+}
+.tableRowEven td {
+    padding: 15px 1rem;
+    /* border-radius: 12px; */
+    border-right: solid 1px #EDEDED; 
+    text-align: center;
+    
+     
+    /* background-color: #F4F7F8; */
+}
+.tableRowEven .tdataBold{
+    color: #363A3F;
+font-family: Gordita;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 19.2px */
+letter-spacing: -0.24px;
+border-right: solid 1px #EDEDED; 
+text-align: left;
+}
+.tableRow .tdataBold{
+    color: #363A3F;
+font-family: Gordita;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 19.2px */
+letter-spacing: -0.24px;
+border-right: solid 1px #EDEDED; 
+text-align: left;
+}
+.tableRow{
+    border-radius: 0.75rem;
+}
+.totalRow{
+    color: #6658D3;
+    font-weight: bold;
+    border-top: solid 1px #EDEDED; 
+    background-color: #FFFFFF;
+}
+
+.thead{
+    color: #363A3F;
+    font-family: Gordita;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 19.2px */
+    letter-spacing: -0.24px;
+}
+.horizontalLine{
+    
+}
+.verticalLine{}
+
+.tableRow .subName{
+    text-align: left;
+}
+.tableRowTotal .leftAlign{
+    text-align: left;
+}
+.tableRow .leftBorder{
+    border-left: none;
+}
+.tableRowTotal td.void{
+    border-right: none;
+    border-bottom: none;
+}
+.tableRowTotal td.rightBorder{
+    border-right: none;
+}
+

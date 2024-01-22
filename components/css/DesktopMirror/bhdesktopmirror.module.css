@@ -1,0 +1,250 @@
+@font-face {
+  font-family: 'Gordita-Bold';
+  src: url(../../../public/fonts/Gordita-Medium.ttf)format("truetype");
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Gordita-Black';
+  src: url(../../../public/fonts/Gordita-Black.ttf)format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Regular';
+  src: url(../../../public/fonts/Gordita-Regular.ttf)format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Medium'; 
+  src: url(../../../public/fonts/Gordita-Medium.ttf)format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Light'; 
+  src: url(../../../public/fonts/Gordita-Light.ttf) format("truetype");
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction:row;
+  height:100%;
+  width:100%;
+  background: #F4F7F8;
+  }
+  
+  .imagecontainer {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-content: center;
+  }
+  
+  .image {
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image img {
+    width: 100%;
+    height:auto;
+  }
+  
+  .bhlogo {
+    max-width: 62px; /* Adjust the width as needed */
+  max-height: 46px; /* Adjust the height as needed */
+  position: absolute;
+  top: 3.5rem;
+  left: 6rem;
+  }
+  .heading{
+    position: absolute;
+    max-width: 25.25rem;
+  color: white; 
+  top: 9.5rem; 
+  left: 6rem;
+  font-family: 'Gordita-Bold';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 51.2px */
+  letter-spacing: -0.64px;
+  }
+
+  .subheading{
+    position: absolute;
+    max-width: 45.25rem;
+  color: white; 
+  top: 11rem; /* Convert 20px to rem (20px / 16px = 1.25rem) */
+  left: 6rem;
+  color: #FFF;
+  font-family: 'Gordita-Regular';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 38.4px */
+  letter-spacing: -0.48px;
+  margin-top: 36px;
+  padding-right: 40px;
+  }
+  
+  .login {
+    width: 49%;
+    height:1200px;
+    background: #F4F7F8;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .topbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.5rem;
+    padding-left: 2rem;
+    justify-content: flex-end;
+    padding-right: 3rem;
+  }
+  .logos{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 2rem;
+  }
+  .cross {
+    height:3rem;
+    width:3rem;
+    margin-left: auto; /* Push the cross logo to the right */
+  }
+  .loginbox{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f7f8;
+    align-self: center;
+    margin-top: 12rem;
+    height: 80rem;
+    width:50rem;
+  }
+  .logintext{
+    color: #363A3F;
+font-family: 'Gordita-Regular';
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 33.6px */
+letter-spacing: -0.42px;
+
+align-self: center;
+  }
+.emailinputcontainer{
+    margin-top: 2rem;
+    width: 331px;
+    height: 55px;
+    background-color: #F4F7F8;
+    border: 1px solid #8E8E8E;
+    align-self: center;
+    border-radius: 0.6rem;
+  
+  }
+  
+.emailinput{
+    height:100%;
+    width:100%;
+    font-family: 'Gordita-Regular';
+    outline: none !important;
+    background-color: #F4F7F8;
+    color:black ;
+    border-radius: 0.8rem;
+    
+    text-indent:2rem;
+  }
+  .passwordcontainer{
+    margin-top: 1.6rem;
+    width: 331px;
+    height: 55px;
+    background-color: #F4F7F8;
+    border: 1px solid #8E8E8E;
+    align-self: center;
+    border-radius: 0.6rem;
+  }
+  .passwordinput{
+    height:100%;
+    width:100%;
+    font-family: 'Gordita-Regular';
+    outline: none !important;
+    background-color: #F4F7F8;
+    color:black ;
+    border-radius: 0.8rem;
+    
+    text-indent:2rem;
+  }
+  .text{
+    color: #8E8E8E;
+font-family: 'Gordita-Regular';
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 1.4rem */
+letter-spacing: -0.0175rem;
+align-self: center;
+margin-top: 1.5rem;
+  }
+.orsection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.4rem;
+    margin-left: 14rem;
+}
+.horizontalline{
+    
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 0.6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  
+    width: 6.375rem;
+  }
+  .or{
+    color: #8E8E8E;
+font-family: 'Gordita-Regular';
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 1.4rem */
+letter-spacing: -0.0175rem;
+  }
+.scanoption{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 2rem;
+    height: 3.5rem;
+    width:331px;
+     background-color: #F4F7F8;
+     border: 1px solid #8E8E8E;
+     align-self: center;
+     border-radius: 0.6rem;
+     padding-left: 3.8rem;
+     padding-right: 3.8rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+}
+.scanqr{
+    color: #374957;
+font-family: 'Gordita-Regular';
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.02rem;
+margin-left: 1.4rem;
+}
+.qrImage{
+    width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+}
+  
+  
+  
+  
+  

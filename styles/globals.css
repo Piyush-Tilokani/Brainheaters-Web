@@ -1,0 +1,174 @@
+.box {
+  border: 0px none;
+  height: 55px;
+  overflow-x: hidden;
+  width: 1512px;
+}
+
+.box .group {
+  height: 55px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1514px;
+}
+
+.box .overlap {
+  background-color: #e9f9ff;
+  height: 55px;
+  position: relative;
+  width: 1512px;
+}
+
+.box .div {
+  height: 21px;
+  left: 96px;
+  position: absolute;
+  top: 17px;
+  width: 1366px;
+}
+
+.box .group-2 {
+  height: 21px;
+  left: 843px;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.box .overlap-group {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 21px;
+  left: 100px;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.box .text-wrapper {
+  color: #595959;
+  font-family: "Gordita-Medium", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  left: 6px;
+  letter-spacing: -0.1px;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+}
+
+.box .text-wrapper-2 {
+  color: #2daa5f;
+  font-family: "Gordita-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.box .arrow {
+  height: 5px;
+  left: 152px;
+  position: absolute;
+  top: 9px;
+  width: 9px;
+}
+
+.box .group-3 {
+  height: 21px;
+  left: 1031px;
+  position: absolute;
+  top: 0;
+  width: 160px;
+}
+
+.box .text-wrapper-3 {
+  color: #8f33d6;
+  font-family: "Gordita-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.box .group-4 {
+  height: 21px;
+  left: 1219px;
+  position: absolute;
+  top: 0;
+  width: 147px;
+}
+
+.box .div-wrapper {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 21px;
+  left: 89px;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.box .text-wrapper-4 {
+  color: #ff3939;
+  font-family: "Gordita-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.box .img {
+  height: 5px;
+  left: 139px;
+  position: absolute;
+  top: 9px;
+  width: 9px;
+}
+
+.box .students-from-over {
+  color: #26282d;
+  font-family: "Gordita-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  left: 224px;
+  letter-spacing: -0.12px;
+  line-height: normal;
+  position: absolute;
+  top: 3px;
+}
+
+.box .text-wrapper-5 {
+  color: #26282d;
+  font-family: "Gordita-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.14px;
+  line-height: normal;
+  position: absolute;
+  top: 1px;
+}
+
+.box .text-wrapper-6 {
+  color: #000000;
+  font-family: "Gordita-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  left: 59px;
+  letter-spacing: -0.28px;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}

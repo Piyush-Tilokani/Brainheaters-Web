@@ -1,0 +1,93 @@
+.container{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    background: #F4F7F8;
+
+}
+.list{
+    width:20%;
+    height:100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+
+.head{
+    width: 100%;
+height: 55px;
+border-radius: 8px;
+background: #F4F7F8;
+display: flex;
+flex-direction: row;
+padding: 15px;
+}
+.bhlogo{
+    width: 28px;
+height: 20px;
+flex-shrink: 0;
+margin-right: 12px;
+}
+
+.text{
+    color: #363A3F;
+font-family: 'Gordita-Medium';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 22.4px */
+letter-spacing: -0.28px;
+}
+.subtext{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
+.image{
+    width: 12px;
+height: 12px;
+flex-shrink: 0;
+padding-top: 6px;
+}
+.recent{
+    color: #C4C4C4;
+font-family: 'Gordita-Medium';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 22.4px */
+letter-spacing: -0.28px;
+padding-left: 10px;
+}
+.listitems{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    
+}
+.horizontalline {
+    border-top: 1px solid #F4F7F8;
+    border-bottom: 1px solid #F4F7F8;
+    margin-top: 6px; /* 4rem * 16px */
+    width:100%
+}
+
+.view{
+    position: absolute;
+    top: 50%; /* Vertically center the element */
+    left: 55%; /* Horizontally center the element */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    width:60%;
+    height:90%;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+
+}

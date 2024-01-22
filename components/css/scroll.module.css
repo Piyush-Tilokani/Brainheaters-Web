@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Gordita-Medium'; 
+    src: url(../../public/fonts/Gordita-Medium.ttf) format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gordita-Regular'; 
+    src: url(../../public/fonts/Gordita-Regular.ttf) format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gordita-Light'; 
+    src: url(../../public/fonts/Gordita-Light.ttf) format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gordita-Bold'; 
+    src: url(../../public/fonts/Gordita-Bold.ttf) format("truetype");
+    font-style: normal;
+  }
+  /* HorizontalScroll.module.css */
+  .container {
+      overflow: hidden; /* Hide any overflow beyond the container */
+      
+    }
+    
+    .horizontalScrollContainer {
+      width: calc(100% - 40px); /* Adjust the width to leave space on both sides */
+    margin: 0 20px; /* Add margin for spacing on both sides */
+    overflow-x: hidden; /* Hide the native scrollbar */
+    white-space: nowrap;
+    cursor: grab; /* Show a grabbing cursor while dragging */
+    }
+    
+    .horizontalScrollContent {
+      display: inline-block;
+    }
+    
+    .item {
+      height: 305px; /* 20.2rem */
+    width: 235px; /* 15.8rem */
+    background-color: white;
+    margin-top: 40px; /* 2.5rem */
+    margin-right: 24px; /* 1.5rem */
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 12px; /* 0.75rem */
+    padding-top: 25.6px; /* 1.6rem */
+    padding-left: 18.24px; /* 1.12rem */
+    padding-right: -24px; /* 1.12rem */
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    /* Show grabbing cursor while dragging */
+    .horizontalScrollContainer:active {
+      cursor: grabbing;
+    }
+  
+  .cardicon{
+      border-radius: 0.75rem;
+  background: #FED8D8;
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  padding: 1.12rem;
+  
+  }
+  .cardimg{
+      width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  color:#FF7D6B;
+  }
+  
+  .cardtitle{
+      color: #363A3F;
+  font-family: 'Gordita-Bold';
+  font-size: 1.175rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.0225rem;
+  margin-top: 2rem;
+  }
+  
+  .carddescription{
+      color: #363A3F;
+  font-family: 'Gordita-Regular';
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 400;
+  
+   width:80%;
+  letter-spacing: -0.015rem;
+  margin-top: 0.7rem;
+  content: block;
+  
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;  
+  
+  }
+  .reddescription{
+      display: flex;
+      color: #FF6464;
+  font-family: 'Gordita-Regular';
+  font-size: 0.85rem;
+  font-style: normal;
+  font-weight: 400;
+  width:100px;
+  
+  
+   /* 0rem */
+  letter-spacing: -0.015rem;
+  margin-top: 0.7rem;
+  }
+  .tooltip {
+      position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 6px;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    bottom: 100%; /* Position above the carddescription */
+    left: 0; /* Align with the left side */
+    width: 100%; /* Expand to the full width of the carddescription */
+    }
+    
+    .carddescription:hover .tooltip {
+      visibility: visible; /* Show the tooltip on hover */
+      opacity: 1;
+    }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .dynamic{
+    color: #8E8E8E;
+  font-family: 'Gordita-Regular';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 157%; /* 18.84px */
+  letter-spacing: -0.24px;
+  
+  }
+    .arrow{
+      width: 14px;
+  height: 14px;
+  stroke-width: 1.6px;
+  stroke: #595959;
+  margin-left: 60px;
+  margin-bottom: 10px;
+    }
+    

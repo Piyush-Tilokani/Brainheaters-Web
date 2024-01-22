@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Gordita-Medium'; 
+  src: url(../../../public/fonts/Gordita-Medium.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Regular'; 
+  src: url(../../../public/fonts/Gordita-Regular.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Light'; 
+  src: url(../../../public/fonts/Gordita-Light.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Bold'; 
+  src: url(../../../public/fonts/Gordita-Bold.ttf) format("truetype");
+  font-style: normal;
+}
+.container3 {
+    background: #E9F9FF;
+    width: 100%;
+    height: 15.9375rem; /* 255px / 16px */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .maintext {
+    color: #000;
+    font-family: 'Gordita-Regular';
+    font-size: 2.25rem; /* 36px / 16px */
+    font-weight: 400;
+    letter-spacing: -0.045rem; /* -0.72px / 16px */
+    text-align: center;
+    padding-top: 4rem; /* 64px / 16px */
+    align-self: center;
+  }
+  /* Medium devices (tablets, less than 992px) */
+@media (max-width: 1399.98px) { 
+  .container3 {
+    background: #E9F9FF;
+    width: 100%;
+    height: 255px; /* 15.9375rem * 16px */
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext {
+    color: #000;
+    font-family: 'Gordita-Regular';
+    font-size: 34px; /* 2.25rem * 16px */
+    font-weight: 400;
+    letter-spacing: -0.72px; /* -0.045rem * 16px */
+    text-align: center;
+    padding-top: 64px; /* 4rem * 16px */
+    align-self: center;
+}
+
+  
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .container3 {
+    background: #E9F9FF;
+    width: 100%;
+    height: 255px; /* 15.9375rem * 16px */
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext {
+    color: #000;
+    font-family: 'Gordita-Regular';
+    font-size: 32px; /* 2.25rem * 16px */
+    font-weight: 400;
+    letter-spacing: -0.72px; /* -0.045rem * 16px */
+    text-align: center;
+    padding-top: 64px; /* 4rem * 16px */
+    align-self: center;
+}
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 991.98px) {
+  .container3 {
+    background: #E9F9FF;
+    width: 100%;
+    height: 255px; /* 15.9375rem * 16px */
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext {
+    color: #000;
+    font-family: 'Gordita-Regular';
+    font-size: 30px; /* 2.25rem * 16px */
+    font-weight: 400;
+    letter-spacing: -0.72px; /* -0.045rem * 16px */
+    text-align: center;
+    padding-top: 64px; /* 4rem * 16px */
+    align-self: center;
+}
+ }
+
+  @media (max-width: 576px) {
+    .container3 {
+      background: #E9F9FF;
+      width: 100%;
+      height: 8rem; /* 255px / 16px */
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .maintext {
+      color: #000;
+      font-family: 'Gordita-Regular';
+      font-size: 1.125rem; /* 36px / 16px */
+      font-weight: 400;
+      letter-spacing: -0.045rem; /* -0.72px / 16px */
+      text-align: center;
+      padding-top: 2rem; /* 64px / 16px */
+      align-self:center;
+    }
+  }

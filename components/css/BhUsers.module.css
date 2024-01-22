@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "Gordita-Medium";
+  src: url(../../public/fonts/Gordita-Medium.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gordita-Regular";
+  src: url(../../public/fonts/Gordita-Regular.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gordita-Light";
+  src: url(../../public/fonts/Gordita-Light.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gordita-Bold";
+  src: url(../../public/fonts/Gordita-Bold.ttf) format("truetype");
+  font-style: normal;
+}
+
+.componentBox {
+  margin-left: 200px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  font-family: Gordita;
+  margin: 89px 128px;
+  flex-wrap: wrap;
+  /* margin-top: 1px; */
+}
+.leftArea {
+  width: 489px;
+  height: 399px;
+  margin-top: 89px;
+}
+.rightArea {
+  width: 766px;
+  /* height: 608px; */
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.15);
+}
+.live {
+  display: flex;
+  flex-direction: row;
+  margin: 27px 34px;
+  align-items: center;
+  gap: 4px;
+}
+.live span {
+  color: #363a3f;
+  font-family: Gordita Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.32px;
+  margin-right: 8px;
+}
+.live p {
+  color: #ff6464;
+  font-family: Gordita Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.32px;
+}
+.live svg {
+  /* border: 3px solid #FED8D8; */
+  outline: 3px solid #fed8d8;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-left: 10px;
+}
+.search {
+  margin-top: 1rem;
+}
+
+.searchBar {
+  padding: 1.5%;
+  font-family: "Gordita Regular";
+  /* font-size: 0.85rem; */
+
+  color: #8e8e8e;
+  font-family: Gordita Regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 19.2px */
+  letter-spacing: -0.24px;
+
+  width: 732px;
+  height: 50px;
+  background-image: url(../../public/images/fi-rr-search.png);
+  background-repeat: no-repeat;
+  text-indent: 1.2rem;
+  border-radius: 0.75rem;
+  background-position-x: 1.2%;
+  background-position-y: 53%;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  margin: 0px 20px;
+}
+
+.tableContainer {
+  margin-top: 0.15rem;
+}
+.orange {
+  color: #ff9971;
+  font-family: Gordita-Bold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+.ourCurrent {
+  color: #363a3f;
+  font-family: Gordita Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: -0.32px;
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+.numberOfstudents {
+  color: #81bbb8;
+  font-family: Gordita Regular;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.42px;
+  margin-top: 7px;
+}
+
+.tdata {
+  color: #363a3f;
+  font-family: Gordita-Regular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 19.2px */
+  letter-spacing: -0.24px;
+}
+.tdataBold {
+  font-family: Gordita Medium;
+}
+.colName {
+  width: 312px;
+}
+.students {
+  width: 189px;
+  border-right: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+  text-align: center;
+}
+th.students {
+  text-align: center;
+}
+.avg {
+  width: 241px;
+}
+.tableRow th {
+  padding: 1.25rem 0rem;
+  border-bottom: 1px solid #ededed;
+}
+
+.tableRow,
+.thead,
+.tdata {
+  /* border: 1px solid #EDEDED;;
+       border-collapse: collapse; */
+}
+.tableRow td {
+  padding: 0.9rem 0rem;
+  background-color: #f4f7f8;
+  text-align: justify;
+}
+
+.tableRow .left {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.tableRowEven .left {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.tableRow .right {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.tableRowEven .right {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.tableRowEven td {
+  padding: 0.9rem 0rem;
+  /* background-color: #F4F7F8; */
+}
+.tableRow {
+  border-radius: 0.75rem;
+}
+.totalRow {
+  color: #363a3f;
+  font-family: Gordita Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 19.2px */
+  letter-spacing: -0.24px;
+}
+.thead {
+  font-family: Gordita Bold;
+  text-align: left;
+}
+.horizontalLine {
+}
+.verticalLine {
+}
+.tableRow .redCircle {
+  outline: 3px solid #fed8d8;
+  border-radius: 50%;
+  display: inline;
+  margin-right: 15px;
+}
+.tableRowEven .redCircle {
+  outline: 3px solid #fed8d8;
+  border-radius: 50%;
+  display: inline;
+  margin-right: 15px;
+}
+.tdata span {
+  border-radius: 7px;
+  background: #5fbebe;
+  padding: 5px;
+  color: #fff;
+}
+.heading {
+  width: 489px;
+  color: #363a3f;
+  font-family: Gordita-Bold;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.42px;
+}
+.collgesIndia {
+  color: #81bbb8;
+  font-family: Gordita-Medium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+.table {
+  font-size: 12px;
+  margin-left: 20px;
+  padding-right: 10px;
+  height: 462px;
+  overflow: hidden;
+  /* overflow-y: scroll; */
+}
+.border {
+  border-left: 1px solid#EDEDED;
+  border-right: 1px solid#EDEDED;
+  text-align: center;
+}
+.tableRow .border {
+  border-left: 1px solid#EDEDED;
+  border-right: 1px solid#EDEDED;
+  text-align: center;
+}
+td.right {
+  padding-left: 30px;
+}
+th.right {
+  padding-left: 30px;
+}
+th.colName {
+  text-align: left;
+  padding-left: 14px;
+}
+.tableRow .left {
+  padding-left: 14px;
+}
+.tableRowEven .left {
+  padding-left: 14px;
+}
+td.bottom {
+  border-top: 1px solid#EDEDED;
+  background-color: #fff;
+}

@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Gordita';
+    src: url(../../public/fonts/Gordita-Black.ttf);
+}
+@font-face {
+    font-family: 'Gordita-medium';
+    src: url(../../public/fonts/Gordita-Medium.ttf);
+}
+@font-face {
+    font-family: 'Gordita-light';
+    src: url(../../public/fonts/Gordita-Light.ttf);
+}
+
+
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 58px;
+    gap: 4.5%;
+}
+
+.listItem{
+    text-decoration-style: none;
+    font-family: 'Gordita-Regular';
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 154px;
+}
+
+.materialContainer{
+   background-color: #F0FDFF;;
+   height: 594px;
+   width: 100%;
+   display: flex;
+   /* margin-top: 135px; */
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   /* padding: 0px 128px; */
+}
+.orangeText{
+    color: #FF9971;  
+    font-family: Gordita;
+}
+.numberofstudents{
+    color: #363A3F;
+font-family: Gordita;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 25.6px */
+letter-spacing: -0.32px;
+}
+.heading{
+    color: #363A3F;
+    font-family: Gordita;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    margin-top: 41px;
+    margin-bottom: 11px;
+}
+.smallText{
+    color: #8E8E8E;
+    font-family: Gordita;
+    font-size: 1 rem;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.32px;
+    margin-top: 28px;
+}
+.plainText{
+    color: #363A3F;
+    font-family: Gordita-Regular;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: -0.36px;
+    margin-bottom: 35px;
+    width: 814px;
+}
+.phoneImg{
+    /* margin-left: 103px; */
+    /* margin-right: 233px; */
+    width: 80% ;
+    position: relative;
+    bottom: 2rem;
+    /* padding-top: 50px; */
+}
+.leftSubsection{
+    display: flex;
+    flex-direction: column;
+    width: 942px;
+    height: auto;
+}
+.active{
+    font-family: 'Gordita';
+    font-weight: bold;
+    color: #6658D3;
+}
+.displayArea{
+    width: 81rem;
+    padding: 1.4%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 0.75rem;
+    /* border: 5px solid black; */
+    position: relative;
+    bottom: 8.1rem;
+    background-color: white;
+}
+/* .numberOfBooksContainer{
+    display: flex;
+    gap: 1rem;
+} */
+.dropdown1{
+    width: 235px;
+height: 55px;
+    margin: 0 1.3rem;
+    background-color: #F4F7F8;
+    border-radius: 0.75rem;
+    padding: 0.2rem 2rem;
+    font-size: 0.875rem;
+    font-family: "Gordita-Regular";
+    appearance: none;
+
+    color: #8E8E8E;
+font-family: Gordita;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 22.4px */
+letter-spacing: -0.28px;
+   
+    background: url('../../public/images/Arrow\ 25.png') no-repeat right #F4F7F8;
+    background-origin: padding-box;
+    background-position-x: 12.5rem;
+    background-position-y: 1.6rem;
+    /* padding: 1rem; */
+}
+.dropdown2{
+    width: 235px;
+height: 55px;
+    margin: 0 24pxrem;
+    background-color: #F4F7F8;
+    border-radius: 0.75rem;
+    padding: 0.2rem 2rem;
+    font-size: 0.875rem;
+    font-family: "Gordita-Regular";
+    appearance: none;
+
+    color: #8E8E8E;
+font-family: Gordita;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 22.4px */
+letter-spacing: -0.28px;
+   
+    background: url('../../public/images/Arrow\ 25.png') no-repeat right #F4F7F8;
+    background-origin: padding-box;
+    background-position-x: 12.1rem;
+    background-position-y: 1.6rem;
+    /* padding: 1rem; */
+}
+.dropdown1:hover, .dropdown2:hover{
+cursor: pointer;
+}
+
+.searchBar{
+    padding: 1.5%;
+    font-family: "Gordita-Regular";
+    /* font-size: 0.85rem; */
+    width: 55%;
+    background-image: url(../../public/images/fi-rr-search.png);
+    background-repeat: no-repeat;
+    text-indent: 1.2rem;
+    border-radius: 0.75rem;
+    background-position-x: 2.2%;
+    background-position-y: 53%;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.searchRow{
+    margin-top: 1rem;
+}
+.tableContainer{
+/* width: 78.5rem; */
+}
+

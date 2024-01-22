@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Gordita Bold";
+    src: url("../../public/fonts/Gordita-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Gordita Medium";
+    src: url("../../public/fonts/Gordita-Medium.ttf") format("truetype");
+    font-weight: medium;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Gordita Regular";
+    src: url("../../public/fonts/Gordita-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+.heading h1{
+color: #363A3F;
+font-family: Gordita Bold;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.42px;
+text-align: center;
+}
+.tabsContainer{
+    display: flex;
+    flex-direction: row;
+    /* width: 1512px; */
+    align-items: center;
+    justify-content: center;
+    gap: 53px;
+    margin-top: 29px;
+    margin-left: auto   ;
+}
+.tabsContainer span{
+    padding-bottom: 3px;
+}
+.tabsContainer span:hover{
+    cursor: pointer;
+}
+.activeTab{
+border-bottom: 5px solid #6658D3;
+border-radius: 4px;
+color: #363A3F;
+font-family: Gordita Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+letter-spacing: -0.32px;
+}
+.recipecontainer{ 
+width: 1295px;
+height: 688px;
+display: flex;
+padding: 20px;
+border-radius: 20px;
+background-color: #F5F5F5;
+/* border: 5px solid black; */
+flex-direction: column;
+flex-wrap: wrap;
+margin: 25px 109px;
+margin-left: 20rem;
+}
+.right{
+    margin-top: 20px;
+}
+.imageRow{
+display: flex;
+flex-direction: row;
+gap: 56px;
+}
+.right button.grey{
+    border-radius: 12px;
+background: #86A0A9;
+padding: 8px 15px;
+margin-right: 20px;
+color: white;
+font-family: Gordita Medium; 
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 19.2px */
+letter-spacing: -0.24px;
+}
+.right button.white{
+    border-radius: 12px;
+background: white;
+padding: 8px 15px;
+color: #363A3F;
+font-family: Gordita Medium;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 19.2px */
+letter-spacing: -0.24px;
+}
+.white img{
+    display: inline;
+    margin-right: 5px;
+}
+.white{
+    /* border: 5px solid grey; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.bottomDesc{
+    color: #363A3F;
+font-family: Gordita bold;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 33.6px */
+letter-spacing: -0.42px;
+text-align: center;
+margin-top: 45px;
+margin-bottom: 18px;
+}
+.bottomButton{
+    width: 282px;
+height: 50px;
+flex-shrink: 0;
+    border-radius: 12px;
+background: #46C2F3;
+color: white;
+color: #FFF;
+font-family: Gordita Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+letter-spacing: -0.32px;
+}
+.recipeItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 35px;
+}
+.recipeNum{
+    border: 6px solid #CED6D9;
+    border-radius: 50%;
+    padding: 12px 17px;
+    color: #374957;
+text-align: center;
+font-family: Gordita Bold;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; /* 25.6px */
+letter-spacing: -0.32px;
+margin-right: 29px;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+}
+.recipeHeading{
+    color: #363A3F;
+font-family: Gordita Medium;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+letter-spacing: -0.32px;
+margin-bottom: 8px;
+
+}
+.recipeDesc{
+    width: 352px;
+    color: #595959;
+font-family: Gordita Regular;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 22.4px */
+letter-spacing: -0.28px;
+}
+.headingText{
+    color: #363A3F;
+font-family: Gordita Bold;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.42px;
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Gordita-Medium'; 
+  src: url(../../../public/fonts/Gordita-Medium.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Regular'; 
+  src: url(../../../public/fonts/Gordita-Regular.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Light'; 
+  src: url(../../../public/fonts/Gordita-Light.ttf) format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Bold'; 
+  src: url(../../../public/fonts/Gordita-Bold.ttf) format("truetype");
+  font-style: normal;
+}
+  
+  .regular{
+    font-family: 'Gordita-Bold';
+    color: '#363A3F';
+  }
+  .regular{
+    font-family: 'Gordita-Regular';
+    color: '#363A3F';
+  }
+  .light{
+    font-family: 'Gordita-Light';
+    color: '#363A3F';
+  }
+  .medium{
+    font-family: 'Gordita-Medium';
+    color: '#363A3F';
+  }
+  .bold{
+    font-family: 'Gordita-Bold';
+    color: '#363A3F';
+  }

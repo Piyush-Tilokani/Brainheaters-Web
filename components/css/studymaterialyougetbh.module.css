@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Gordita-Medium'; 
+    src: url(../../public/fonts/Gordita-Medium.ttf) format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gordita-Regular'; 
+    src: url(../../public/fonts/Gordita-Regular.ttf) format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gordita-Light'; 
+    src: url(../../public/fonts/Gordita-Light.ttf) format("truetype");
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gordita-Bold'; 
+    src: url(../../public/fonts/Gordita-Bold.ttf) format("truetype");
+    font-style: normal;
+  }
+.container{
+    background: #F4F7F8;
+padding-left: 340px; /* 10rem * 16px */
+padding-right: 160px; /* 10rem * 16px */
+display: flex;
+flex-direction: column;
+padding-top: 80px; /* 5.2rem * 16px */
+padding-bottom: 80px;
+
+}
+.maintext{
+    color: #363A3F;
+font-family: 'Gordita-Bold';
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.0525rem;
+display: flex;
+flex-direction: row;
+padding-left: 20px;
+}
+.image{
+    height:60px;
+    width:60px;
+    margin-right: 10px;
+}
+.subheading{
+    color: #363A3F;
+    font-family: 'Gordita-Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: -0.32px;
+margin-top: 0.5rem;
+padding-right: 20rem;
+padding-left: 20px;
+}
+.horizontal-scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+  
+    /* Additional styling as needed */
+    width: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+  }
+.horizontal-scroll-content {
+    display: inline-block; /* Make content display in a single line */
+    padding: 10px; /* Add padding to the content */
+  display: flex;
+  flex-direction: row;
+    /* Additional styling as needed */
+  }
+
+.cards{
+    height: 20.2rem;
+    width: 15.8rem;
+    background-color: #FFF;
+    margin-top: 2.5rem;
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    padding-top: 1.6rem;
+    padding-left: 1.12rem;
+    padding-right: 1.12rem;
+    
+
+}
+.cardicon{
+    border-radius: 0.75rem;
+background: #FED8D8;
+width: 3.75rem;
+height: 3.75rem;
+flex-shrink: 0;
+padding: 1.12rem;
+
+}
+.cardimg{
+    width: 1.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+color:#FF7D6B;
+}
+
+.cardtitle{
+    color: #363A3F;
+font-family: 'Gordita-Bold';
+font-size: 1.175rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.0225rem;
+margin-top: 2rem;
+}
+
+.carddescription{
+    color: #363A3F;
+font-family: 'Gordita-Regular';
+font-size: 0.85rem;
+font-style: normal;
+font-weight: 400;
+ 
+letter-spacing: -0.015rem;
+margin-top: 0.7rem;
+}
+.reddescription{
+    color: #FF6464;
+font-family: 'Gordita-Regular';
+font-size: 0.85rem;
+font-style: normal;
+font-weight: 400;
+ /* 0rem */
+letter-spacing: -0.015rem;
+margin-top: 0.7rem;
+}

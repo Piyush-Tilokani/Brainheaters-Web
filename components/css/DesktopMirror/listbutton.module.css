@@ -1,0 +1,39 @@
+/* listbutton.module.css */
+
+.listbutton {
+    border-radius: 8px;
+    background: #fff;
+    height: 55px;
+    flex-shrink: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #363a3f;
+    font-family: 'Gordita-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+    letter-spacing: -0.28px;
+    transition: background-color 0.3s, color 0.3s, border-radius 0.3s;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .listbutton.clicked {
+    background: #f3f3ff;
+    color: #6658d3;
+    font-weight: 500;
+  }
+  
+  .listbutton.clicked:hover {
+    background: #f3f3ff;
+    color: #6658d3;
+  }
+  
+  .listbutton:hover {
+    background: #f3f3ff;
+    color: #6658d3;
+  }
+  
